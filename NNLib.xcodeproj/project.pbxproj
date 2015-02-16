@@ -20,6 +20,7 @@
 		B83911051A9212CF00D312AE /* RVBP_XORTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911011A9212CF00D312AE /* RVBP_XORTest.cpp */; };
 		B83911061A9212CF00D312AE /* SOM_ComplexTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911021A9212CF00D312AE /* SOM_ComplexTest.cpp */; };
 		B83911071A9212CF00D312AE /* SOM_SimpleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911031A9212CF00D312AE /* SOM_SimpleTest.cpp */; };
+		B8765D151A92203500DB10A1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B8765D131A92203500DB10A1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,8 @@
 		B83911011A9212CF00D312AE /* RVBP_XORTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RVBP_XORTest.cpp; sourceTree = "<group>"; };
 		B83911021A9212CF00D312AE /* SOM_ComplexTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SOM_ComplexTest.cpp; sourceTree = "<group>"; };
 		B83911031A9212CF00D312AE /* SOM_SimpleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SOM_SimpleTest.cpp; sourceTree = "<group>"; };
+		B8765D131A92203500DB10A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8765D141A92203500DB10A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		B83910CC1A92121900D312AE = {
 			isa = PBXGroup;
 			children = (
+				B8765D131A92203500DB10A1 /* README.md */,
+				B8765D141A92203500DB10A1 /* LICENSE */,
 				B83910DF1A92123C00D312AE /* stdafx.h */,
 				B83910D71A92121900D312AE /* NNLib */,
 				B83910FA1A92127E00D312AE /* NNlib_Tests */,
@@ -201,6 +206,7 @@
 				B83911071A9212CF00D312AE /* SOM_SimpleTest.cpp in Sources */,
 				B83910F51A92127300D312AE /* Network.cpp in Sources */,
 				B83910F61A92127300D312AE /* Neuron.cpp in Sources */,
+				B8765D151A92203500DB10A1 /* README.md in Sources */,
 				B83910F41A92127300D312AE /* main.cpp in Sources */,
 				B83910F71A92127300D312AE /* RVBPTrainer.cpp in Sources */,
 				B83910F11A92127300D312AE /* CVBPTrainer.cpp in Sources */,
@@ -321,6 +327,7 @@
 				B83910DE1A92121900D312AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
