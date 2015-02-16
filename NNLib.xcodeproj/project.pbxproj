@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B83910D91A92121900D312AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910D81A92121900D312AE /* main.cpp */; };
+		B83910F11A92127300D312AE /* CVBPTrainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910E81A92127300D312AE /* CVBPTrainer.cpp */; };
+		B83910F21A92127300D312AE /* CVSOMTrainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910E91A92127300D312AE /* CVSOMTrainer.cpp */; };
+		B83910F31A92127300D312AE /* Layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910EA1A92127300D312AE /* Layer.cpp */; };
+		B83910F41A92127300D312AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910EB1A92127300D312AE /* main.cpp */; };
+		B83910F51A92127300D312AE /* Network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910EC1A92127300D312AE /* Network.cpp */; };
+		B83910F61A92127300D312AE /* Neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910ED1A92127300D312AE /* Neuron.cpp */; };
+		B83910F71A92127300D312AE /* RVBPTrainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910EE1A92127300D312AE /* RVBPTrainer.cpp */; };
+		B83910F81A92127300D312AE /* RVSOMTrainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910EF1A92127300D312AE /* RVSOMTrainer.cpp */; };
+		B83910F91A92127300D312AE /* Trainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83910F01A92127300D312AE /* Trainer.cpp */; };
+		B83911041A9212CF00D312AE /* Perceptron_ImageTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911001A9212CF00D312AE /* Perceptron_ImageTest.cpp */; };
+		B83911051A9212CF00D312AE /* RVBP_XORTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911011A9212CF00D312AE /* RVBP_XORTest.cpp */; };
+		B83911061A9212CF00D312AE /* SOM_ComplexTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911021A9212CF00D312AE /* SOM_ComplexTest.cpp */; };
+		B83911071A9212CF00D312AE /* SOM_SimpleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B83911031A9212CF00D312AE /* SOM_SimpleTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,33 @@
 
 /* Begin PBXFileReference section */
 		B83910D51A92121900D312AE /* NNLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NNLib; sourceTree = BUILT_PRODUCTS_DIR; };
-		B83910D81A92121900D312AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B83910DF1A92123C00D312AE /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		B83910E01A92127300D312AE /* CVBPTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVBPTrainer.h; sourceTree = "<group>"; };
+		B83910E11A92127300D312AE /* CVSOMTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVSOMTrainer.h; sourceTree = "<group>"; };
+		B83910E21A92127300D312AE /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		B83910E31A92127300D312AE /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		B83910E41A92127300D312AE /* Neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neuron.h; sourceTree = "<group>"; };
+		B83910E51A92127300D312AE /* RVBPTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVBPTrainer.h; sourceTree = "<group>"; };
+		B83910E61A92127300D312AE /* RVSOMTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVSOMTrainer.h; sourceTree = "<group>"; };
+		B83910E71A92127300D312AE /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trainer.h; sourceTree = "<group>"; };
+		B83910E81A92127300D312AE /* CVBPTrainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVBPTrainer.cpp; sourceTree = "<group>"; };
+		B83910E91A92127300D312AE /* CVSOMTrainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVSOMTrainer.cpp; sourceTree = "<group>"; };
+		B83910EA1A92127300D312AE /* Layer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Layer.cpp; sourceTree = "<group>"; };
+		B83910EB1A92127300D312AE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B83910EC1A92127300D312AE /* Network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Network.cpp; sourceTree = "<group>"; };
+		B83910ED1A92127300D312AE /* Neuron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Neuron.cpp; sourceTree = "<group>"; };
+		B83910EE1A92127300D312AE /* RVBPTrainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RVBPTrainer.cpp; sourceTree = "<group>"; };
+		B83910EF1A92127300D312AE /* RVSOMTrainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RVSOMTrainer.cpp; sourceTree = "<group>"; };
+		B83910F01A92127300D312AE /* Trainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trainer.cpp; sourceTree = "<group>"; };
+		B83910FB1A9212CF00D312AE /* Perceptron_ImageTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perceptron_ImageTest.h; sourceTree = "<group>"; };
+		B83910FC1A9212CF00D312AE /* RVBP_XORTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVBP_XORTest.h; sourceTree = "<group>"; };
+		B83910FD1A9212CF00D312AE /* SOM_ComplexTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOM_ComplexTest.h; sourceTree = "<group>"; };
+		B83910FE1A9212CF00D312AE /* SOM_SimpleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOM_SimpleTest.h; sourceTree = "<group>"; };
+		B83910FF1A9212CF00D312AE /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		B83911001A9212CF00D312AE /* Perceptron_ImageTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Perceptron_ImageTest.cpp; sourceTree = "<group>"; };
+		B83911011A9212CF00D312AE /* RVBP_XORTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RVBP_XORTest.cpp; sourceTree = "<group>"; };
+		B83911021A9212CF00D312AE /* SOM_ComplexTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SOM_ComplexTest.cpp; sourceTree = "<group>"; };
+		B83911031A9212CF00D312AE /* SOM_SimpleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SOM_SimpleTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +79,9 @@
 		B83910CC1A92121900D312AE = {
 			isa = PBXGroup;
 			children = (
+				B83910DF1A92123C00D312AE /* stdafx.h */,
 				B83910D71A92121900D312AE /* NNLib */,
+				B83910FA1A92127E00D312AE /* NNlib_Tests */,
 				B83910D61A92121900D312AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,9 +97,42 @@
 		B83910D71A92121900D312AE /* NNLib */ = {
 			isa = PBXGroup;
 			children = (
-				B83910D81A92121900D312AE /* main.cpp */,
+				B83910EB1A92127300D312AE /* main.cpp */,
+				B83910E01A92127300D312AE /* CVBPTrainer.h */,
+				B83910E11A92127300D312AE /* CVSOMTrainer.h */,
+				B83910E21A92127300D312AE /* Layer.h */,
+				B83910E31A92127300D312AE /* Network.h */,
+				B83910E41A92127300D312AE /* Neuron.h */,
+				B83910E51A92127300D312AE /* RVBPTrainer.h */,
+				B83910E61A92127300D312AE /* RVSOMTrainer.h */,
+				B83910E71A92127300D312AE /* Trainer.h */,
+				B83910E81A92127300D312AE /* CVBPTrainer.cpp */,
+				B83910E91A92127300D312AE /* CVSOMTrainer.cpp */,
+				B83910EA1A92127300D312AE /* Layer.cpp */,
+				B83910EC1A92127300D312AE /* Network.cpp */,
+				B83910ED1A92127300D312AE /* Neuron.cpp */,
+				B83910EE1A92127300D312AE /* RVBPTrainer.cpp */,
+				B83910EF1A92127300D312AE /* RVSOMTrainer.cpp */,
+				B83910F01A92127300D312AE /* Trainer.cpp */,
 			);
 			path = NNLib;
+			sourceTree = "<group>";
+		};
+		B83910FA1A92127E00D312AE /* NNlib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B83910FB1A9212CF00D312AE /* Perceptron_ImageTest.h */,
+				B83910FC1A9212CF00D312AE /* RVBP_XORTest.h */,
+				B83910FD1A9212CF00D312AE /* SOM_ComplexTest.h */,
+				B83910FE1A9212CF00D312AE /* SOM_SimpleTest.h */,
+				B83910FF1A9212CF00D312AE /* Tests.h */,
+				B83911001A9212CF00D312AE /* Perceptron_ImageTest.cpp */,
+				B83911011A9212CF00D312AE /* RVBP_XORTest.cpp */,
+				B83911021A9212CF00D312AE /* SOM_ComplexTest.cpp */,
+				B83911031A9212CF00D312AE /* SOM_SimpleTest.cpp */,
+			);
+			name = NNlib_Tests;
+			path = NNLib_Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +191,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B83910D91A92121900D312AE /* main.cpp in Sources */,
+				B83911051A9212CF00D312AE /* RVBP_XORTest.cpp in Sources */,
+				B83911041A9212CF00D312AE /* Perceptron_ImageTest.cpp in Sources */,
+				B83910F21A92127300D312AE /* CVSOMTrainer.cpp in Sources */,
+				B83911061A9212CF00D312AE /* SOM_ComplexTest.cpp in Sources */,
+				B83910F31A92127300D312AE /* Layer.cpp in Sources */,
+				B83910F81A92127300D312AE /* RVSOMTrainer.cpp in Sources */,
+				B83910F91A92127300D312AE /* Trainer.cpp in Sources */,
+				B83911071A9212CF00D312AE /* SOM_SimpleTest.cpp in Sources */,
+				B83910F51A92127300D312AE /* Network.cpp in Sources */,
+				B83910F61A92127300D312AE /* Neuron.cpp in Sources */,
+				B83910F41A92127300D312AE /* main.cpp in Sources */,
+				B83910F71A92127300D312AE /* RVBPTrainer.cpp in Sources */,
+				B83910F11A92127300D312AE /* CVBPTrainer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +287,8 @@
 		B83910DD1A92121900D312AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stdafx.h;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +296,8 @@
 		B83910DE1A92121900D312AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stdafx.h;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

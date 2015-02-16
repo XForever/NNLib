@@ -1,15 +1,22 @@
 //
 //  main.cpp
-//  NNLib
+//  NN_proj
 //
-//  Created by vsnRain on 16/02/2015.
-//  Copyright (c) 2015 vsnrain. All rights reserved.
+//  Created by vsnRain on 22/08/2014.
+//  Copyright (c) 2014 vsnrain. All rights reserved.
 //
 
-#include <iostream>
+#include "Network.h"
+#include "../NNLib_Tests/Tests.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char * argv[])
+{
+    cout << "Main started\n";
+    
+    //RVBP_XORTest();
+    //Perceptron_ImageTest();
+    SOM_SimpleTest();
+    //SOM_ComplexTest();
+    
     return 0;
 }
